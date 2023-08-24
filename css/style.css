@@ -1,0 +1,445 @@
+/*MullerBold
+MullerLight
+MullerMedium
+MullerRegular
+*/
+body{
+    background: #F1F1F1;
+    color: #666666;
+}
+.container{
+    margin-left: 375px;
+    margin-right: 375px;
+    margin-top: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    min-height: 54px;
+
+}
+.tel{
+    margin-right: 230px;
+    font-family:'MullerMedium';
+    margin-top: 19px;
+    color: #666666;
+}
+.iis{
+    border: none;
+    background:none
+} .iis a{
+    color:#CC9933;
+    text-decoration: none;
+    font-family:'MullerMedium';
+    font-size: 16px;
+}
+nav{
+margin-top: 30px;
+border-radius: 15px;
+background: #FFF;
+height: 70px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-top: 22px;
+    list-style-type:none;
+    
+} .no_custom{
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-family:'MullerRegular';
+}
+
+.tour_button{
+    border-radius: 10px;
+border: 1px solid #C93;
+background: none;
+}
+.A_BUT{
+    text-decoration: none;
+    color: #C93;
+    padding: 20px 5px;
+font-size: 16px;
+line-height: normal;
+}
+
+ul li:nth-child(6){
+margin-right: 12px;
+}
+.cpesial_promo_text{
+    color: #333;
+    font-size: 30px;
+    font-family: 'MullerRegular';
+    margin-left: 20px;
+
+
+}
+.special{
+    height: 350px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+}
+.maldivian{
+    background-image: url('/img/relax.png');
+    width: 340px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 258px;
+    color: #FFF;
+
+}
+.madivian_promo{
+    font-family: 'MullerBold';
+}
+.maldivian_2_promo{
+    font-family: 'MullerMedium';
+    font-size: 20px;
+}
+.Proesion{
+    text-decoration: none;
+    color: #CC9933;
+    font-family: 'MullerMedium';
+    
+}
+.maldivian_krit_group{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.svg{
+    position: relative;
+    top: 4px;
+}
+
+.krit{
+    background-image: url('/img/bacian.png');
+    width: 340px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 258px;
+    margin-top: 20px;
+    color: #FFF;
+}
+
+.Lux{
+    position: relative;
+    left: 350px;
+    width: 420px;
+    padding-bottom: 200px;
+    bottom: 440px;
+    background-image: url('/img/divan.jpg');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: #FFF;
+}
+.Lux_group{
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+    top: 169px;
+}
+.Lux .Lux_group{
+    font-family: 'MullerBold';
+    font-size: 18px;
+}
+.by_main{
+    margin-top: 120px;
+    color: #333;
+    font-size: 30px;
+    font-family: 'MullerRegular';
+    
+}
+.promo_main{
+    margin-left: 20px;
+    font-size: 27px;
+}
+.promo_main_typles{
+    font-size: 18px;
+}
+
+.feiual_promo{
+    margin-top: 40px;
+    color: #333;
+    font-size: 30px;
+    font-family: 'MullerRegular';
+    margin-left: 20px;
+}
+.fesiual{
+    display: flex;
+    justify-content: space-between;
+    flex-flow:wrap;
+}
+.fesiual div{
+    margin-top: 20px;
+    width: 370px;
+    font-family: 'MullerMedium';
+    border-radius: 15px 15px 0px 0px;
+background: #FFF;
+}
+
+
+.fesiual_img{
+    width: 370px;
+}
+
+.group_of_excluse{
+    text-align: center;
+}
+.exclusive_link{
+    text-decoration: none;
+font-size: 18px;
+    color: #C93;
+}
+.exclusve_promo_titel{
+    font-size: 16px;
+}
+
+.adventage_is{
+    margin-top: 40px;
+    color: #333;
+    font-size: 30px;
+    font-family: 'MullerRegular';
+    margin-left: 20px;
+}
+
+.advantage{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.loops{
+    border-radius: 15px;
+background: #FFF;
+text-align: center;
+margin-top: 20px;
+width: 160px;
+font-family: 'MullerMedium';
+font-size: 12px;
+}
+
+.raz{
+    margin-top: 40px;
+    color: #333;
+    font-size: 30px;
+    font-family: 'MullerRegular';
+    margin-left: 20px;
+}
+
+
+.box-hotel{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.hotel{
+    width: 240px;
+    border-radius: 15px;
+background: #FFF;
+margin-top: 20px;
+text-align: center;
+font-family: 'MullerRegular';
+
+}
+.price_ot{
+    color: #999;
+    font-size: 15px;
+}
+.price{
+    color: #000;
+    font-size: 20px;
+}
+.hotel img{
+    width: 240px;
+}
+.night{
+    font-size: 17px;
+}
+.name_gold{
+    color: #000;
+    font-size: 17px;
+}
+.place_gold{
+    color:#999;
+    font-size: 17px;
+}
+
+.but_gold{
+    border-radius: 10px;
+    border: 1px solid #C93;
+    background: none;
+    margin-bottom: 20px;
+}
+
+.but_gold a{
+    text-decoration: none;
+    color: #C93;
+    padding: 20px 5px;
+}
+#MAPSIK{
+    background-image: url('/img/hotel/41\ \(1\).png');
+}
+.all_varaible{
+    margin-top: 270px;
+    font-size: 20px;
+    border: none;
+    background: none;
+} .all_varaible a{
+    color: #FFF;
+    font-family: 'MullerMedium';
+    text-decoration: none;
+}
+
+.tour_group{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'MullerMedium';
+font-size: 15px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+color: #000000;
+padding-bottom: 20px;
+}
+
+.Tour{
+    margin-top: 50px;
+    border-radius: 15px;
+background: #E9E9E9;
+}
+.tour_promo{
+    margin-left: 20px;
+    padding-top: 25px;
+    color: #333;
+    font-size: 30px;
+    font-family: 'MullerRegular';
+}
+
+#FIND{
+    padding: 5px;
+}
+
+.gps_contants{
+    color: #333;
+    font-size: 30px;
+    font-family: 'MullerRegular';
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.gps{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+background: #FFF;
+height: 400px;
+}
+
+.gps-Info{
+    margin-left: 25px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:start;
+}
+.gps-promo-cas{
+    display: flex;
+    justify-content: space-around;
+
+}
+.IMGURE{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.gps-promo-titel{
+    margin-left: 25px;
+    color: #000;
+    font-family: 'MullerMedium';
+    font-size: 15px;
+}
+.ad{
+    color: #000;
+    font-family: 'MullerBold';
+    font-size: 17px;
+}
+.telephoe{
+    color:#CC9933;
+}
+.EMAILE_PHONE{
+    color:#CC9933;
+    margin-left: 40px;
+}
+#MOSCOU{
+    margin-left: 60px;
+}
+#graph{
+    margin-left: 45px;
+}
+.gps_burron{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #C93;
+    background: none;
+    margin-bottom: 20px;
+}
+.gps_burron_link{
+    text-decoration: none;
+    color: #C93;
+    padding: 40px;
+}
+
+footer{
+    margin-top: 20px;
+}
+.boxing{
+    height: 300px;
+    background-color: #333;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.org{
+    color: #FFF;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'MullerRegular';
+    font-size: 14px;
+}
+.prgik{
+margin-top: 50px;
+}
+.org_link{
+    color:#C93;
+    text-decoration: none;
+    margin-top: 1px;
+}
+.logo_position{
+    width: 100px;
+margin-top: 140px;
+margin-right: 20px;
+}
+
+.help{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;  
+    font-size: 13px; 
+    margin-right: 150px;
+    color: #FFF;
+    font-family: 'MullerRegular';
+    margin-top: 20px;
+}
+.LOGO_FOOTER{
+    margin-top: 40px;
+}
